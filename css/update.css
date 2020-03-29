@@ -4,7 +4,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.7) 75%, #ffffff 100%), url("../img/bg-new-tall.png");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.7) 75%, #ffffff 100%), url("../img/bg-new-tall.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -16,6 +16,16 @@
   background: #ffffff;
 }
 
+.masthead h1 {
+  font-family: 'Varela Round';
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: -webkit-linear-gradient(rgba(22, 22, 22, 0.9), rgba(22, 22, 22, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -25,4 +35,19 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+}
+
+body {
+  font-family: 'Helvetica Neue';
+  letter-spacing: 0.002em;
+}
+
+.btn {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: 'Helvetica Neue';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
 }
