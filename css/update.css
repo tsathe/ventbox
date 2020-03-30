@@ -182,3 +182,20 @@ body {
 .about-section .download-section h2 {
   font-size: 2rem;
 }
+
+.gallery-section .container {
+            background: #000000;
+        }
+        
+        .flex-column {
+            max-width: 260px;
+        }
+        
+        .gallery-section img {
+            margin: 5px;
+        }
+        
+        .gallery-section .scale {
+            transform: scaleY(1.05);
+            padding-top: 5px; 
+        }
