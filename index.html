@@ -21,6 +21,7 @@
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
   <link href="css/update.css" rel="stylesheet">
+  <link href="css/fluid-gallery.css" rel="stylesheet">
 
 </head>
 
@@ -74,6 +75,53 @@
       <img style="width:100%" src="img/scheme.png" class="img-fluid" alt="">
     </div>
   </section>
+
+  <div class="container gallery-container">
+
+    <h1>Bootstrap 3 Gallery</h1>
+
+    <p class="page-description text-center">Fluid Layout With Overlay Effect</p>
+    
+    <div class="tz-gallery">
+
+        <div class="row">
+
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="../images/bridge.jpg">
+                    <img src="img/ipad.png" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../images/park.jpg">
+                    <img src="img/ipad.png" alt="Park">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../images/tunnel.jpg">
+                    <img src="img/ipad.png" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-8">
+                <a class="lightbox" href="../images/traffic.jpg">
+                    <img src="img/ipad.png" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../images/coast.jpg">
+                    <img src="img/ipad.png" alt="Coast">
+                </a>
+            </div> 
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../images/rails.jpg">
+                    <img src="img/ipad.png" alt="Rails">
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 
     <!-- Download Section -->
   <section id="download" class="download-section text-center">
@@ -238,6 +286,11 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script>
+      baguetteBox.run('.tz-gallery');
+  </script>
 
 </body>
 
